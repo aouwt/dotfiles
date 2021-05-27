@@ -1,0 +1,30 @@
+fontname "sans-serif:pixelsize=14:bold"
+unbind-key all
+unbind-mouse all
+
+gap 24 0 0 0
+snapdist 5
+
+htile 60
+vtile 60
+
+borderwidth	2
+
+bind-mouse	4-1	window-move
+bind-mouse	S4-1	window-resize
+bind-mouse	C4-1	window-raise
+
+bind-mouse	C4-1	window-maximize
+
+# bind-mouse	4-3	window-group
+
+bind-key	4-Left	window-vtile
+bind-key	4-Right	window-vtile
+bind-key	4-Up	window-htile
+bind-key	4-Down	window-htile
+
+bind-key	4-Tab	window-cycle
+bind-key	4S-Tab	window-rcycle
+
+# bind-key	4-space	group-cycle
+# bind-key	4S-space	group-rcycle
